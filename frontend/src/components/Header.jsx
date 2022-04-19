@@ -20,7 +20,7 @@ function Header() {
         <Link to="/">GoalSetter</Link>
       </div>
       <ul>
-        {user ? (
+        {!user ? (
           <>
             <li>
               <Link to="/login">
